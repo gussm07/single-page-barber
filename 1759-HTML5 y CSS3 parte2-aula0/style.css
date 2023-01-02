@@ -1,0 +1,79 @@
+.titulo-principal {
+  padding-left: 30px;
+}
+.caja {
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
+}
+nav {
+  position: absolute;
+  top: 100px;
+  right: 0;
+}
+
+nav li {
+  /* marca la lista en forma horizontal */
+  display: inline;
+  /* arriba, abajo, derecha, izquierda */
+  margin: 0 0 0 15px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #000;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: rgb(240, 176, 13);
+  transition: ease-in-out;
+  text-decoration: underline;
+}
+
+#banner {
+  width: 100%;
+}
+
+.principal {
+  background: #cccccc;
+  padding: 20px;
+}
+
+.titulo-centralizado {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+em strong {
+  color: red;
+}
+
+#mision {
+  font-size: 20px;
+}
+
+.diferenciales {
+  background: #ffffff;
+  padding: 30px;
+}
+
+.items {
+  font-style: italic;
+}
+
+ul {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
+}
+
+.imagenDiferenciales {
+  width: 50%;
+}
